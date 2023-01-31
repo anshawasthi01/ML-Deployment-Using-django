@@ -16,6 +16,7 @@ endpoint -> /api/home
 1. music_controller/api/models.py
 2. Inside music_controller -> python manage.py makemigrations
 3. python manage.py migrate
+4. python manage.py createsuperuser
 
 
 
