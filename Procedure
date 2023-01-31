@@ -1,0 +1,11 @@
+
+1. pip install django djangorestframework
+2. django-admin startproject music_controller
+3. cd music_controller
+4. python manage.py runserver
+5. django-admin startapp api
+6. music_controller -> setting.py ->Add in INSTALLED_APPS  
+7. music controller -> urls.py
+8. music_controller/api-> change views.py 
+9. music_controller/api CREATE urls.py
+
