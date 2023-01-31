@@ -17,6 +17,8 @@ from rest_framework import generics, status
 from .models import Room 
 from .serializers import RoomSerializer
 
-def main(request):
-    return HttpResponse("Hello World")
+
+class RoomView(generics.ListAPIView):
+    queryset = Room.objects.all()
+    serializer_class = RoomSerializer
 
