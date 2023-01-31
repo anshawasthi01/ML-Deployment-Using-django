@@ -18,6 +18,10 @@ endpoint -> /api/home
 3. python manage.py migrate
 4. python manage.py createsuperuser
 
-
+rest_framework
+5. create file in music_controller/api -> serializers.py
+6. music_controller -> setting.py ->Add in INSTALLED_APPS -> rest_framework
+7. music_controller/api/views.py update
+8. /api/home <- ENDPOINT
 
 
