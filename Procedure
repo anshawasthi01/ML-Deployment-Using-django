@@ -9,3 +9,7 @@
 8. music_controller/api-> change views.py 
 9. music_controller/api CREATE urls.py
 
+endpoint -> /api/home
+
+
+
