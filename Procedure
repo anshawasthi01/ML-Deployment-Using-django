@@ -14,7 +14,7 @@ endpoint -> /api/home
 
 31/01/2023
 1. music_controller/api/models.py
-2. python manage.py makemigrations
+2. Inside music_controller -> python manage.py makemigrations
 
 
 
