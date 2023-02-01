@@ -25,3 +25,7 @@ rest_framework
 8. /api/home <- ENDPOINT
 
 
+01/02/2023
+1. music controller/ django-admin startapp frontend 
+
+
